@@ -15,3 +15,6 @@ function testNumber3(a,b){
     return Math.floor(Math.random() * (b - a + 1)) + a;
 }
 
+function testNumber4(a,b,c){
+    return Math.max(a, b, c) - Math.min(a, b, c);
+}

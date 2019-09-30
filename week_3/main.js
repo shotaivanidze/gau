@@ -18,3 +18,13 @@ function testNumber3(a,b){
 function testNumber4(a,b,c){
     return Math.max(a, b, c) - Math.min(a, b, c);
 }
+
+function testNumber5(a,b){
+    if(b = 1){
+        a = Math.ceil(a)
+    }
+    else if(b = 2){
+        a = Math.ceil(b)
+    }
+    alert(a);
+}

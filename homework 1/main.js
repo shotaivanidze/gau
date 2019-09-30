@@ -49,3 +49,8 @@ function tableHeightWidth(){
     document.getElementById("thirdTable").style.width = array[0] + "px";
     document.getElementById("thirdTable").style.height = array[1] + "px";
 }
+
+function tableBGColor(){
+    var color = prompt("Enter your color code in HEX");
+    document.getElementById("fourthTable").style.backgroundColor = color;
+}

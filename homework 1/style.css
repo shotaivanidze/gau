@@ -14,13 +14,13 @@ button {
     padding: 1px;
 }
 
-#firstTable, #secondTable, #thirdTable {
+#firstTable, #secondTable, #thirdTable, #fourthTable {
     border: 1px solid black;
     width: 200px;
     height: 200px;
     margin: 5px;
 }
 
-#firstTable tr td, #secondTable tr td, #thirdTable tr td {
+#firstTable tr td, #secondTable tr td, #thirdTable tr td, #fourthTable tr td {
     border: 1px solid black;
 }
